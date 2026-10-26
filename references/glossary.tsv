@@ -1,0 +1,150 @@
+id	topics	ru	en	ar	accept	wrong	wrong_unless_ru	wrong_level	status	evidence	note
+gordynya	core,religion	гордын|гордец	pride	التكبّر	تكبر|متكبر	غرور|الكبرياء		warn	attested	~305 occ.; book «التغلب على التكبر»	«الكبرياء» only inside Bible quotations
+obida	core	обид|обиж	resentment, grudge	الزعل	زعل	ضغين		warn	attested	182 occ.	verb: يزعل؛ снять обиду = إزالة الزعل؛ обидчик = المسيء
+nedovolstvo	core	недовол|претензи	discontent, claims	الاستياء / عدم الرضا	استياء|مستاء|عدم الرضا|عدم رضا			warn	attested	healing p10–16	претензии = «الاستياءات»
+agressiya	core	агресс	aggression	العدائية	عدائي	عدواني		warn	attested	182 occ.	«العدوانية» occurs rarely, never as the default
+osuzhdenie	core	осужд|осуди|осуж	condemnation, judging	الإدانة	ادان|يدين|تدين|ندين|ادين|يدان			warn	attested	42 occ.	
+prezrenie	core	презр|презир	contempt	الاحتقار	احتقار|يحتقر|تحتقر|احتقر|محتقر	ازدراء		warn	attested		
+revnost	core,family	ревн	jealousy	الغيرة	غيرة|غيرته|غيرتها|يغار|تغار|اغار|نغار			warn	attested	71 occ.	not religious zeal
+nenavist	core	ненавид|ненавист	hatred	الحقد / الكره	حقد|حاقد|كره|يكره|تكره|كراهي			warn	attested		
+zavist	core	завид|завист	envy	الحسد	حسد|حسود|يحسد			warn	attested		завистливый = الحسود
+unynie	core	уныни|уныл	despondency	الاكتئاب	اكتئاب|مكتئب|يكتئب|تكتئب	قنوط		warn	locked	Sablabal: «الزعل، الإدانة، الاكتئاب»	user rule: Sablabal over user (user had suggested القنوط)
+depressiya	core,disease	депресс	depression	الاكتئاب	اكتئاب|مكتئب			warn	attested		
+otchayanie	core	отчаян|отчая	despair	اليأس	ياس|يائس			warn	locked	pride: «اليأس هو الشعور النقيض للحب»	
+strah	core	страх(?!ов)|страш|бояз	fear	الخوف	خوف|خاف|يخاف|تخاف|مخاوف|مخيف			warn	attested		
+sozhalenie	core,fate	(?<!к )сожале	regret	الندم	ندم|نادم|يندم			warn	attested	«الندم على الماضي»	к сожалению = للأسف (not regret)
+samoedstvo	core	самоед	self-reproach	تأنيب النفس	تانيب			warn	attested	healing p11, p14	
+samounizhenie	core	самоуничиж	self-abasement	إذلال الذات	اذلال			warn	attested	pride	
+pohot	core,family	похот	lust	الشهوة	شهو			warn	attested		
+naslazhdenie	core	наслажд|удовольств	pleasure	الملذات / المتعة	ملذ|متع|لذة|لذات			warn	attested		
+potrebitelstvo	core,money	потребительск|потребительств	consumerism	الاستهلاكية	استهلاك			warn	attested	pride p24	
+kritika	core	критик|критико|критикова|критичн	criticism	الانتقاد	انتقاد|ينتقد|انتقد|ناقد			warn	attested		
+neporyadochnost	core	непорядочн	dishonesty	الإسفاف / غير شريف	اسفاف|غير شريف			warn	attested	healing p11–12	
+privyazannost	core	привязан|привязыв|зацеплен|цепляе|цепляни	attachment	التعلّق	تعلق|متعلق|يتعلق|تتعلق			warn	attested	«التعلّق بالدنيا»، «التعلّقات»	
+obozhestvlenie	core,religion	обожеств|поклонени|поклоня	deification, worship	التقديس / التعبّد	تقديس|يقدس|تقدس|تعبد|يتعبد|عباد			warn	locked	Sablabal intro: поклонение = تقديس و/أو تعبّد	may use both words for one Russian word
+blagopoluchie	core,money,fate	благополуч	well-being, prosperity	اليُسر	يسر|يسير|سعاد			warn	attested	53 occ.; «المصير اليسير»	
+cennosti	core	ценност	values	القيم	قيم|قيمة			warn	attested	«القيم الدنيوية / البشرية»، «القيمة المطلقة»	
+duhovnost	core,religion	духовност	spirituality	الروحانية	روحاني			warn	attested		
+sposobnosti	core	способност	abilities	القدرات / المواهب	قدر|موهب|مواهب			warn	locked	Sablabal intro	may render with both words
+razvitie	core	развити|эволюц	development, evolution	النمو / التطوّر	نمو|تطور|تنمي|ارتقاء			warn	locked	Sablabal intro	choose by context
+prioritety	core	приоритет	priorities	نظام الأولويات	اولوي			warn	attested		
+otkaz_ot_lyubvi	core	отказ\w* от любв|отказыва\w* от любв	renouncing love	التخلّي عن الحب	تخلي عن الحب|يتخلى عن الحب|تتخلى عن الحب|التخلي عن الحب			warn	attested		«قتل الحب» = убийство любви, a separate concept
+ubiystvo_lyubvi	core	убийств\w* любв|убива\w* любов	killing love	قتل الحب	قتل الحب|يقتل الحب			warn	attested	karma1 p34	
+samosohranenie	core	самосохранен	self-preservation	غريزة حفظ الذات	حفظ الذات			warn	attested	pride (20)	
+lyubimyi	core,family	любим(ый|ого|ому|ым|ая|ой|ую|ые|ых)\b	beloved	الحبيب / المحبوب	حبيب|محبوب			warn	attested	«الإنسان المحبوب»	
+bog	religion	бог(?!ат|ач)|бож|господ|творц|творец|создател	God, the Creator	الله / الخالق	الله|لله|بالله|خالق|الرب|العلي|الاله|الهي			warn	locked	Sablabal: «الله» not «إله», rarely «رب»	«الإله» only for pagan gods and «الرب الإله» in Bible quotes
+lyubov_k_bogu	religion	любв\w* к бог|любов\w* к бог|любит\w* бог	love for God	حب الله	حب الله|حبه لله|حبها لله|حب لله|لحب الله			warn	attested	130 occ.	not «الحب الإلهي»
+bozh_lyubov	religion	божественн\w* любов|божественн\w* любв	Divine love	الحب الإلهي	الحب الالهي|المحبة الالهية			warn	attested		
+bozh_volya	religion,fate	божественн\w* вол|высш\w* вол|вол\w* бож|вол\w* творц	Divine will	الإرادة الإلهية	الارادة الالهية|ارادة الله|الارادة العليا|ارادة العلي|الارادة الالهية العليا			warn	attested	85 occ.	«الإرادة الإلهية العُليا» for высшая воля
+edinstvo	religion	единств|единени	unity	الوحدة	وحدة|الوحده|توحد			warn	attested	«الوحدة مع الله»	
+stremlenie	religion	стремлени\w* к бог|стрем\w* к бог	striving toward God	السعي لله / التوجّه لله	السعي لله|سعي|التوجه لله|يتوجه|نحو الله			warn	attested		
+molitva	religion	молитв|молит|молюсь|молил|помолит	prayer	الصلاة	صلا|صلو|يصلي|صلي|اصلي|تصلي|نصلي	دعاء		warn	attested	142 occ.; «الدعاء» once	
+pokayanie	religion	покаян|покая|раская	repentance	التوبة	توب|تائب|يتوب|تتوب			warn	attested	70 occ.	
+proshchenie	religion	прощ|простить|прости(л|ла|ли|т|те|ть)\b	forgiveness, to forgive	الصفح / يسامح	صفح|يصفح|سامح|يسامح|مسامح|غفر|مغفر			warn	attested	56 occ.	direction matters: forgiving ≠ asking forgiveness
+prosit_proshcheniya	religion	прос\w* прощени|прошу прощени|просил\w* прощени	asking forgiveness	طلب المغفرة	طلب المغفرة|يطلب المغفرة|نطلب المغفرة|اطلب المغفرة|تطلب المغفرة|طلب الصفح	تضرع		error	locked	Sablabal intro: «طلب المغفرة» not «التضرع»	
+prinyatie	religion,fate	принят|приним|приня|принима	acceptance	التقبّل	تقبل|يتقبل|قبول			warn	attested	576 occ.	«تقبّل الإرادة الإلهية»
+greh	religion	грех|греш	sin	الخطيئة	خطيئ|خطايا|اثم|آثم			warn	attested		«الأفكار الآثمة»
+zapovedi	religion	заповед	commandments	الوصايا	وصي|وصايا			warn	attested		
+post	religion,disease	пост(а|ом|е|ы|ов|ить|ился|иться)?\b|голодан	fasting	الصوم / الامتناع عن الطعام	صوم|صيام|صام|امتناع عن الطعام|الامتناع			warn	attested		голодание = الامتناع عن الطعام
+smirenie	religion,core	смирени|смирен|смиря|смири	humility	الحِلم	حلم|حليم|تسليم|يسلم	تقشف		warn	attested	26 occ.: «الحلم – عكس التكبر»	смириться с волей = التسليم بـ
+krotost	religion,core	кротост|кротк	meekness	الوداعة	وداع			warn	attested	karma1 p95	
+asketizm	religion	аскез|аскет|воздержан	asceticism, abstinence	التقشّف / الزهد	تقشف|زهد|اعتزال|امتناع			warn	attested	pride p10	
+zhertva	religion,core	жертв	sacrifice	التضحية	تضحي|ضحي|يضحي|اضاحي|اضحية|ضحية			warn	attested	50 occ.	жертвоприношение = الأضاحي
+blagogovenie	religion	благоговен	reverence	الإجلال	اجلال			warn	attested	healing p12	
+pritcha	religion	притч	parable	الأمثولة	امثول|مثل			warn	attested	29 occ.	
+svyashchennik	religion	священник|батюшк|священнослуж	priest	الخوري	خوري|خوارنة|كاهن|رجل الدين|رجال الدين			warn	attested	healing p14	
+bibliya	religion	библи	Bible	الكتاب المقدس	الكتاب المقدس			warn	attested		
+evangelie	religion	евангел	Gospel	الإنجيل / الأناجيل	انجيل|اناجيل			warn	attested		
+zavet	religion	завет	Testament	العهد القديم / العهد الجديد	العهد			warn	attested		
+nagornaya	religion	нагорн	Sermon on the Mount	موعظة الجبل	موعظة الجبل			warn	attested		
+blazhenstvo	religion	блаженств|блаженны	Beatitudes / blessed	الطوبيات / طوبى	طوبى|طوبيات|نعيم			warn	attested	pride	«طوبى للفقراء بالروح»
+svoboda_voli	religion,fate	свобод\w* вол	free will	حرية الإرادة	حرية الارادة|حرية الاختيار|حق الاختيار			warn	attested		
+hristos	religion	христ	Christ	المسيح	مسيح			warn	attested		
+svyatoy	religion	свят(ой|ого|ые|ых|ым|ая|ую)\b|святост	saint, holy	القديس / المقدّس	قديس|مقدس|قداسة			warn	attested		
+dusha	core,field	душ(а|и|у|ой|ою|е|ам|ами|ах)?\b|душевн	soul (душа)	النفس	نفس|نفوس	روح	дух	warn	locked	Sablabal intro: Lazarev uses «النفس» not «الروح»	«الروح» is wrong for душа; it is right for дух
+duh	core,field,religion	дух(а|у|ом|е|и|ов)?\b|духовн	spirit (дух)	الروح	روح			warn	locked	«الإنسان هو جسد، روح ونفس»	нищие духом = الفقراء بالروح
+podsoznanie	core,field	подсознан|подсознат	subconscious	الوعي الباطن	الوعي الباطن|وعيه الباطن|وعيها الباطن|وعينا الباطن|وعي الباطن|وعيهم الباطن|الباطن|الباطنة	اللاوعي|اللاشعور|العقل الباطن		error	locked	Sablabal intro: «الوعي الباطن» not «اللاوعي» or «العقل الباطن»	subconscious aggression = العدائية الباطنة
+soznanie	core,field	сознан|осозна|созна	consciousness, awareness	الوعي / الإدراك	وعي|ادراك|يدرك|واعي|واعية			warn	attested		
+sverhsoznanie	field	сверхсознан	superconsciousness	الوعي الفائق (مستنتج)	فائق|الوعي الاعلى			warn	inferred	Sablabal rules out «العقل الفائق»; his own form not yet found	flag in uncertain.md
+polevye_struktury	field	полев\w* структур|структур\w* пол	field structures	البنيات الحقلية	البنيات الحقلية|بنيات الحقلية|بنياته الحقلية|بنياتها الحقلية|البنية الحقلية|بنية حقلية|بنيات حقلية|بنيات .{0,20}الحقلية	"(^|[\s«\""(])[وفبلك]?(ال)?بنى(\s|$|[.,،؛:»\"")])"		error	attested	77 occ.; «البنى» 0 occ.	singular «بُنية» is fine
+tonkiy_plan	field,meta	тонк\w* план|тонк\w* структур|тонк\w* уров|тонк\w* мир	subtle plane / structures	المستوى الرفيع / البنيات الرفيعة	رفيع	اللطيف|المستوى الدقيق		warn	attested	«أبحث على المستوى الرفيع»	смотреть на тонком плане = أبحث على المستوى الرفيع
+pole	field	пол(е|я|ю|ем|ей|ями|ях)\b|полев	field	الحقل	حقل			warn	attested	349 occ.	
+biopole	field	биопол	biofield	الحقل الحيوي / حقل الإنسان	الحقل الحيوي|حقل الانسان|حقله|حقلها			warn	attested	healing p9	
+pervichnoe_pole	field	первичн\w* пол|кармическ\w* пол	primary / karmic field	الحقل الأولي / الحقل الكارمي	الحقل الاولي|الحقل الكارمي			warn	attested	healing p9	
+karma	field,core	карм	karma	الكارما	كارم			warn	attested		
+chistka_karmy	field	чистк\w* карм|очищ\w* карм|чист\w* карм	karma cleansing	تطهير الكارما	تطهير|طاهر|تطهر|يطهر	تنظيف		warn	locked	user + Sablabal («الكارما الطاهرة»)	
+samoregulyaciya	field	саморегуляц|саморегулир	self-regulation	الضبط الذاتي	الضبط الذاتي|منظومة الضبط			warn	locked	«منظومة الضبط الذاتي الحقلي»	
+samoprogrammirovanie	field	самопрограмм	self-programming	البرمجة الذاتية (مستنتج)	برمج			warn	inferred		not the same as саморегуляция
+bioenergetika	field	биоэнерг	bioenergetics	الطاقة الحيوية	الطاقة الحيوية|طاقة حيوية|طاقي			warn	attested	70 occ.	
+energiya	field	энерг	energy	الطاقة	طاق			warn	attested		
+informaciya	field	информац	information	المعلومات / المعلوماتي	معلومات|معلوماتي			warn	attested	«منظومة معلوماتية-طاقية»	use hyphen: معلوماتية-طاقية
+deformaciya	field	деформац|искажен	deformation	التشوّهات	تشوه|تشويه|مشوه			warn	attested		
+programma	field,core	программ	program	البرنامج / البرامج	برنامج|برامج	ملف|ملفات		warn	locked	Sablabal intro: «برامج» not «ملفات»	
+samounichtozhenie	field,core	самоуничтож|саморазруш	self-destruction	تدمير الذات / التدمير الذاتي	تدمير الذات|التدمير الذاتي|تدمير ذاتي|برنامج تدمير|برامج التدمير			warn	attested		
+vampirizm	field,meta	вампир	energy vampirism	امتصاص الطاقة	امتصاص|مصاص			warn	attested	karma1 (17)	karma1 glosses the English: subconscious vampirism
+harakter	core	характер	character	الطبع	طبع|طباع			warn	attested	«تغيير الطبع»	
+mirovozzrenie	core	мировоззрен	worldview	الرؤية الوجودية	رؤي\w* الوجودي|رؤية وجودية			warn	attested		
+okruzhayushchiy_mir	core	окружающ\w* мир	the surrounding world	العالم المحيط	العالم المحيط|بالعالم المحيط|للعالم المحيط|والعالم المحيط			warn	attested	99 occ.	
+emocii	core	эмоци|чувств	emotions, feelings	العواطف / المشاعر	عاطف|عواطف|مشاعر|شعور|احساس|يشعر|تشعر|نشعر|اشعر			warn	attested	healing p10	
+ego	core	эго\b|эгоизм	ego	الأنا	الانا|انانية|اناني			warn	attested		
+rod	family,fate	род(а|у|ом|е|ов)?\b|родов	lineage, kin	السلالة	سلال|سلالي|اجداد|اسلاف			warn	attested	«الأسباب سلالية»	род also means 'kind' (своего рода = نوع من) — check context
+potomki	family,children	потомк|потомств	descendants	الأبناء / الأحفاد	ابناء|احفاد|ذري|نسل|انجال			warn	attested		
+chelovechestvo	core	человечеств	humanity	البشرية	بشري			warn	attested	148 occ.	
+ekstrasens	meta	экстрасенс	psychic, extrasensory	خبير الإدراك فوق الحسي / الإدراك فوق الحسي	فوق الحسي|مستبصر|الحاسة			warn	attested	41 occ.	
+yasnovidenie	meta	ясновид	clairvoyance	الاستبصار	استبصار|مستبصر			warn	attested		
+gipnoz	meta	гипно	hypnosis	التنويم	تنويم|منوم			warn	attested		
+astrologiya	meta	астролог|гороскоп	astrology	التنجيم	تنجيم|منجم|ابراج			warn	attested		
+magiya	meta	маги(я|и|ю|ей|ческ)|колдов|колдун|чародей|ведьм	magic, sorcery	السحر	سحر|ساحر|سحرة			warn	attested	28 occ.	
+zagovor	meta	заговор(ы|ов|ами)?\b|шептун|знахар	folk charms, folk healers	الرُّقية / المعالجون الشعبيون	رقية|الرقى|معالج			warn	attested	karma1 p12: «المعالجين بالأعشاب والرقية»	here «الرقية» is legitimate (folk charm), not an Islamic projection
+sglaz	meta	сглаз	evil eye	الإصابة بالعين	الاصابة بالعين|بالعين|العين			warn	attested	karma1: explained as «برنامج تدمير»	
+porcha	meta	порч	hex, spoiling	الأذى السحري (مستنتج)	اذى|سحر|ضرر			warn	inferred	no Sablabal form found yet	flag in uncertain.md
+proklyatie	meta	прокля	curse	اللعنة	لعن			warn	attested	32 occ.	
+dyavol	meta,religion	дьявол|сатан|бес(ы|ов|ам|ами|ах|овск|овщ)\b|демон	devil, demons	الشيطان / الشياطين / الشيطنة	شيط|ابليس			warn	attested	«ما هي الشيطنة»	
+oderzhimost	meta	одержим|вселил|вселя	possession	الاستحواذ	استحوذ|استحواذ|يسكن			warn	attested	pride p22: «الشيطان قد استحوذ عليها»	
+dzhinn	meta	джин	jinn	الجن	جن|جني			warn	attested		only when the source really says джинн
+ne_jinn	meta		(projection guard)	—		(^|\s)[وفبل]?(ال)?جن(\s|$|[.,،])|ممسوس|المس الشيطاني|تلبس|الرقية الشرعية	джин	warn	locked	plan: no Islamic projections	flag if the source does not mention джинн
+chakra	meta,field	чакр	chakra	التشاكرا	تشاكرا|شاكرا			warn	attested		
+aura	meta,field	аур(а|ы|у|ой|е)\b	aura	الأورا	اورا|هالة			warn	attested		
+vselennaya	field	вселенн|космос|мироздан	universe	الكون	كون|كوني			warn	attested	198 occ.	
+vremya	field,fate	врем(я|ени|енем|ена)\b	time	الزمان / الوقت	زمان|زمن|وقت|اوقات			warn	attested	«عدائية ضد الزمان»	
+proshlye_zhizni	meta,fate	прошл\w* жизн|реинкарнац|перевоплощ	past lives, reincarnation	الحيوات السابقة / التقمّص	الحيوات|حياة سابقة|تقمص|تناسخ			warn	attested		
+dengi	money	деньг|денег|денеж	money	المال	مال|اموال|نقود			warn	attested	93 occ.	
+biznes	money	бизнес	business	الأعمال	اعمال|عمل|تجار|شرك|مشروع	بزنس|بيزنس		error	attested	«البزنس» 0 occ.; «رجل أعمال»	
+uspeh	money,fate	успех|успеш	success	النجاح	نجاح|ناجح|نجح			warn	attested		
+bednost	money	бедн|нищ	poverty	الفقر	فقر|فقير|فقراء			warn	attested		нищие духом = الفقراء بالروح
+bogatstvo	money	богатств|богат(ый|ого|ые|ых|ым|ая|ой|о)\b	wealth	الثروة / الغنى	ثرو|غنى|غني|اغنياء|ثري			warn	attested		
+rabota	money	работ	work, job	العمل	عمل|وظيف|شغل			warn	attested		
+materialnye_problemy	money	материальн\w* (проблем|трудност|положен)	financial problems	المشاكل المادية	مادي|مادية			warn	attested		
+semya	family	семь|семей|семейн	family	العائلة	عائل|اسر	الاسرة		warn	attested	«العائلة» 50 vs «الأسرة» 3	prefer العائلة
+brak	family	брак(а|е|ом|у|и)?\b|супруг|замуж|женит	marriage, spouse	الزواج / الزوج / الزوجة	زواج|زوج|متزوج|تزوج			warn	attested		
+razvod	family	развод	divorce	الطلاق	طلاق|طلق|مطلق			warn	attested		
+izmena	family	измен(а|ы|у|ой|ял|яла|яет|яют|ник)\b|супружеск\w* измен	infidelity	الخيانة	خيان|خان|يخون			warn	attested		изменить/изменение = change, not infidelity
+roditeli	family	родител	parents	الأهل / الوالدان	اهل|والد|ابوي			warn	attested	«الأهل» 68	
+seks	family	секс|половы\w* (связ|контакт|жизн|акт)|интим	sex	الجنس / الاتصال الجنسي	جنس|جماع			warn	attested		
+abort	children,family	аборт	abortion	الإجهاض	اجهاض			warn	attested	15 occ.	do not confuse with выкидыш
+vykidysh	children,disease	выкидыш	miscarriage	الإجهاض التلقائي (مستنتج)	اجهاض تلقائي|الاجهاض التلقائي|سقط			warn	inferred		distinct from аборт
+beremennost	children	беремен	pregnancy	الحمل	حمل|حامل			warn	attested	38 occ.	
+besplodie	children,disease	бесплод	infertility	العقم	عقم|عاقر			warn	attested	19 occ.	not impotence
+impotenciya	disease,family	импотенц	impotence	العُنّة	العنة|عنة|عجز جنسي			warn	attested	love: «تنشأ العنة عادة بسبب الغيرة»	
+rody	children	род(ы|ов|ах|ами)\b|рожден|родил|рожа|рожд	birth	الولادة / الإنجاب	ولاد|ولد|انجاب|ينجب|تنجب|مولود			warn	attested		
+vospitanie	children,family	воспитан|воспитыв	upbringing	التربية	ترب			warn	attested		
+rebenok	children,family	ребен|ребён|дет(и|ей|ям|ьми|ях)\b|детск	child, children	الطفل / الأطفال	طفل|اطفال|ابن|ابنة|اولاد|ولد|بنت			warn	attested	«الطفل» 228	
+bolezn	disease	болез|болен|больн|болел|заболе	illness	المرض	مرض|مريض|امراض|مرضى			warn	attested		
+rak	disease	рак(а|ом|е|у)?\b|онколог|опухол	cancer, tumor	السرطان / الورم	سرطان|ورم|اورام			warn	attested	29 occ.	
+diabet	disease	диабет	diabetes	السكري	سكري			warn	attested		
+lekarstva	disease	лекарств|таблет|медикамент|препарат	medicines	الأدوية	دواء|ادوية|اقراص|حبوب|عقاقير			warn	attested		
+vrach	disease	врач|доктор|медик	doctor	الطبيب	طبيب|اطباء			warn	attested		
+lechenie	disease	лечен|лечит|исцел|выздоров	treatment, healing	العلاج / الشفاء	علاج|شفاء|يشفى|شفي|معالج|تعالج			warn	attested		
+krovotechenie	disease	кровотеч	bleeding	النزيف	نزف|نزيف			warn	attested	healing p15	
+starost	disease,fate	старост|старен|стареть	old age, aging	الشيخوخة	شيخوخ|شيخ|كبر السن			warn	attested		
+smert	fate,disease	смерт|умер|умира|гибел|погиб	death	الموت	موت|مات|وفا|يموت|هلاك|ميت			warn	attested	87 occ.	
+samoubiystvo	fate,disease	самоубий|суицид	suicide	الانتحار	انتحار|ينتحر|انتحر			warn	attested		
+zrenie	disease	(?<!точки )(?<!точку )зрени	eyesight	البصر	بصر|نظر			warn	attested		с точки зрения = من وجهة نظر (not eyesight)
+psih_rasstroystva	disease	психическ\w* (расстройств|заболеван)|шизофрен|эпилепс	mental disorders	الاضطرابات النفسية	اضطراب|فصام|صرع			warn	attested		
+sudba	fate	судьб	fate, destiny	المصير	مصير|قدر			warn	attested	153 occ.	
+budushchee	fate	будущ	future	المستقبل	مستقبل			warn	attested		
+proshloe	fate	прошл	past	الماضي	ماضي|سابق			warn	attested		
+neschastya	fate	несчаст|бед(а|ы|у|ой|ам)\b|трагед	misfortune, tragedy	المآسي	ماسا|ماسي|ماس|تعاس|مصيب|مصائب|متاعب|نكب			warn	attested	61 occ.	
+nepriyatnosti	fate	неприятност	troubles	المتاعب	متاعب|مشاكل|مشكلة			warn	attested	40 occ.	
+nakazanie	fate,religion	наказан|наказыв|кара\b	punishment	العقاب	عقاب|يعاقب|معاقب			warn	attested		Sablabal note: наказание ← наказ = تربية
+dialectic	core	диалектич|диалектик	dialectical, dialectic, dialectics	ديالكتيكي / ديالكتيكية / الديالكتيك	ديالكتيك	جدلي		warn	locked	Sablabal, preface to «التغلّب على التكبّر» p.5: «مفهوم ″التفكير الديالكتيكي″ لدى لازاريف»; karma1 preface: «علاقة ديالكتية»; user confirmation 2026-10-18	Use «العالم ديالكتيكي» for «мир диалектичен» and «موقف ديالكتيكي» for a dialectical attitude; inflect naturally. User-confirmed terminology, not an unresolved lexical choice. Do not generalize to ordinary debate or argument.

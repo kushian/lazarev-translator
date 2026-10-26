@@ -1,0 +1,9 @@
+{
+  "kind": "lecture",
+  "title_ru": "",
+  "url": "",
+  "date": "YYYY-MM-DD",
+  "duration": "hh:mm:ss",
+  "speakers": ["Лазарев"],
+  "source_obtained_from": "user file | youtube uploaded subs | youtube auto subs | whisper"
+}
