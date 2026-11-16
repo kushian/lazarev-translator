@@ -35,6 +35,9 @@ CUE_LINE = re.compile(rf"^\s*({TS})\s*-->\s*({TS})")
 TAG = re.compile(r"<[^>]+>")
 SEG_MARK = re.compile(r"<!--\s*(s\d{4,6})\s+([\d:.,]+)-([\d:.,]+)\s*-->")
 RLM = "‏"
+# Caption tags for stretches without speech; a segment of them carries only MUSIC.
+NON_SPEECH = re.compile(r"\[(?:музыка|аплодисменты|смех|music|applause|laughter)\][.,]?", re.I)
+MUSIC = "♪"
 
 
 def to_sec(ts: str) -> float:
@@ -152,9 +155,21 @@ def cmd_clean(a):
     # every 2-3 s mid-sentence, and translating fragments breaks Arabic word order and leaves
     # cut-off subtitle lines. Close a segment at sentence end; a very long sentence is cut at
     # its last comma; a long real silence (> --gap s) also closes it.
+    # Non-speech tags ([Музыка], [Аплодисменты], [Смех]) are not words: each run of them becomes its
+    # own segment holding only ♪, which the translation copies unchanged (no "[موسيقى]" in Arabic).
     segs, cur = [], []
     sentence_end = re.compile(r"[.!?…»\"]$")
+    is_music = lambda seg: all(x == MUSIC for _, _, x in seg)  # noqa: E731
     for i, (t0, t1, w) in enumerate(words):
+        if NON_SPEECH.fullmatch(w):
+            if cur:
+                segs.append(cur)
+                cur = []
+            if segs and is_music(segs[-1]):
+                segs[-1].append((t0, t1, MUSIC))
+            else:
+                segs.append([(t0, t1, MUSIC)])
+            continue
         if cur and t0 - cur[-1][1] > a.gap and len(cur) >= 4:
             segs.append(cur)
             cur = []
@@ -171,7 +186,7 @@ def cmd_clean(a):
                 segs.append(cur)
                 cur = []
     if cur:
-        if segs and len(cur) < 4:
+        if segs and len(cur) < 4 and not is_music(segs[-1]):
             segs[-1].extend(cur)
         else:
             segs.append(cur)
@@ -180,7 +195,8 @@ def cmd_clean(a):
     for n, seg in enumerate(segs, 1):
         start = seg[0][0]
         end = segs[n][0][0] if n < len(segs) else cues[-1][1]
-        lines.append(f"<!-- s{n:04d} {fmt(start)}-{fmt(end)} -->\n" + " ".join(w for _, _, w in seg))
+        text = MUSIC if is_music(seg) else " ".join(w for _, _, w in seg)
+        lines.append(f"<!-- s{n:04d} {fmt(start)}-{fmt(end)} -->\n" + text)
     write_text(out / "raw-segments.md", "\n\n".join(lines) + "\n")
     rep = {"cues": len(cues), "caption_words": raw_count, "kept_words": len(words),
            "word_times": "per-word (caption timestamps)" if timed else "spread inside each cue",

@@ -68,6 +68,9 @@ Removes rolling auto-caption repetitions (a technical artifact, not speech) and 
 a comma). Words inside one caption get proportional times, so two sentences never share a timestamp. A plain-text transcript: save it as `source/full.txt` and run
 `split_chunks.py source/full.txt --out source --prefix s` (no timing).
 
+Non-speech tags (`[Музыка]`, `[Аплодисменты]`, `[Смех]`) are not words: `clean` turns each run of
+them into its own segment holding only `♪`. Keep those segments exactly as they are in `cleaned.md`.
+
 YouTube auto-captions carry a timestamp for every word; `clean` uses them (cleaning-report.json says
 `"word_times": "per-word …"`), so subtitles start when the word is spoken, not when the cue settles.
 
@@ -105,6 +108,10 @@ Translate `cleaned.md` into `work/lecture.ar.md`, copying every `<!-- sNNNN star
 exactly. Everything is translated, including repetitions and spoken connectors (rendered as
 natural spoken Arabic: «يعني»، «إذن»، «هكذا»، «حسناً»). Labels: «**لازاريف:**»،
 «**سؤال من الحضور:**»، «**المحاور:**».
+
+**Music marks:** a segment that is only `♪` (music, applause or laughter) is copied as `♪`, never
+translated: no «[موسيقى]» or «[تصفيق]» in the Arabic. The player shows it as a quiet note and the
+reading text leaves it out.
 
 **Garbled spots (user rule): complete them from context, never show them raw.** For every
 `[неразборчиво: x]` in the source segment, write in the Arabic the most likely meaning, inferred
