@@ -109,6 +109,20 @@ exactly. Everything is translated, including repetitions and spoken connectors (
 natural spoken Arabic: «يعني»، «إذن»، «هكذا»، «حسناً»). Labels: «**لازاريف:**»،
 «**سؤال من الحضور:**»، «**المحاور:**».
 
+**Spoken speech must still read as Arabic.** Keep every repetition, false start and aside
+(SKILL.md rule 2), but write each so that it reads as speech, not as a broken sentence: an
+abandoned sentence ends with «…» and the restart begins a new sentence; a correction mid-sentence
+takes « – » («كان ذلك في القرن الخامس – لا، قبل ذلك»). A sentence the speaker does finish keeps
+its main clause in the Arabic, even when the captions scatter it.
+Before each pass, read ~5 segments beyond its end so a sentence crossing the pass boundary is
+understood whole, and run the Arabic read-through (`quality.md`, Manual step 0) on every pass
+before saving or sending it.
+
+**Weak captions (quality usable or poor), when no better source is given:** translate them
+(user default), after rebuilding the Russian (§2–§3), with garbled spots completed in colour
+`{{…}}`, and give the read-through extra care: most broken Arabic in weak videos comes from
+following the garbled Russian word order.
+
 **Music marks:** a segment that is only `♪` (music, applause or laughter) is copied as `♪`, never
 translated: no «[موسيقى]» or «[تصفيق]» in the Arabic. The player shows it as a quiet note and the
 reading text leaves it out.

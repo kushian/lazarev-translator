@@ -98,6 +98,19 @@ start a segment with «.» or «،». `captions.py build-srt` flags such cues.
 Proverbs: literal with a label — «كما تقول الأمثولة الروسية: "…"». Idiomatic headings may be
 naturalized: «Разговор по душам» → «حديثٌ من القلب إلى القلب».
 
+**Explaining a proverb (user rule, 2026-11-22):** after the literal proverb, one bracket explains
+any Russian word in it that an Arabic reader does not know, and the proverb's meaning. Keep the
+Russian word itself in the proverb; never swap it for an Arabic one. The bracket has no
+«من المترجم» (the only exception to §6):
+«كما تقول الأمثولة الروسية: "أنهارٌ من اللبن وضفافٌ من الكسيل" (الكسيل مشروب روسي حلو كثيف من
+الفاكهة والنشا، والمثل يعني حياة النعيم بلا تعب)». A proverb whose meaning is plain in Arabic
+needs no bracket.
+
+**Idioms inside the speech** (not quoted as a proverb): if the literal Arabic is clear, keep it;
+if it is not, give the Arabic meaning directly, without a bracket, so the text does not fill
+with notes: «выбить из седла» → «يزعزع» (not «يُسقط من السرج»)؛ «вопрос встаёт сам собой» →
+«والسؤال الطبيعي هنا» (not «يطرح نفسه سؤال طبيعي»).
+
 ## 5. Dialogue, letters, quotations
 - **Dialogue** (Lazarev's consultations, phone calls): one line per speaker turn, opened with an
   en dash and a space «– », the speech tag set off by « – »:

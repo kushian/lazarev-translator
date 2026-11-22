@@ -12,6 +12,26 @@ term. These steps are the safety net; do them every time.
 | `assemble_book.py` variant scan | one spelling per name/term across the book | — |
 
 ## Manual, per chunk / post
+0. **Arabic read-through — mandatory, before saving, sending or assembling any chunk or part.**
+   The scripts only prove completeness; they cannot see a sentence an Arabic reader cannot follow.
+   Read the chunk's Arabic alone, as an Arabic reader who has never seen the Russian, and fix each
+   sentence that fails one of these questions:
+   - **Is it a complete sentence?** A finished sentence has its main clause: «كنتُ قد تحدثتُ عن أنه
+     لكي نتوجّه في العالم المحيط… عند تقييم أي حدث.» has no main verb. Find what the source says
+     and write it whole. (An abandoned spoken sentence is different: lecture workflow §4.)
+   - **Is the word order Arabic?** (style.md §3, «Word order inside the sentence is Arabic, always».)
+   - **Is a Russian idiom or proverb copied word for word into nonsense?** (style.md §4.)
+     «يطرح نفسه سؤال طبيعي» → «والسؤال الطبيعي هنا:»؛ «لا يُسقطكم من السرج» → «لا يزعزعكم».
+   - **Does it contradict itself?** Often two different Russian words got the same Arabic term:
+     «يتحوّل الاكتئاب إلى اكتئاب» (уныние, депрессия). See SKILL.md, «Two Russian words, one Arabic term».
+   - **Does a sentence break across two blocks** so that neither half reads alone («والتعامل» /
+     «معه باحترام»)? Keep it whole (style.md §3, «Translate whole sentences»).
+   - **Are only Arabic words left?** No «[موسيقى]», «[يسعل]», English words or script status words
+     («poor», «the source ends») in the text or in the doubts list; music marks are `♪`
+     (lecture workflow §4), other sounds are left out or described in Arabic.
+   Rewrite in Arabic inside the same block, keeping every piece of content, then check the
+   rewritten sentence once against the source for meaning. A sentence that already reads clearly
+   is left as it is (style.md §3). This pass is never skipped to save time or tokens.
 1. **Back-translation spot check.** Take 2 random blocks plus every block flagged by the length
    check. Without looking at the source, render your Arabic back into Russian in your head, then
    compare with the source: negation, modality, who-does-what, numbers, causality, any dropped

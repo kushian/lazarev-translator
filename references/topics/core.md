@@ -13,7 +13,7 @@
 | `ревн` | jealousy | **الغيرة** | attested |  | not religious zeal |
 | `ненавид\|ненавист` | hatred | **الحقد / الكره** | attested |  |  |
 | `завид\|завист` | envy | **الحسد** | attested |  | завистливый = الحسود |
-| `уныни\|уныл` | despondency | **الاكتئاب** | locked | قنوط | user rule: Sablabal over user (user had suggested القنوط) |
+| `уныни\|уныл` | despondency | **الاكتئاب** | locked | قنوط | user rule: Sablabal over user (user had suggested القنوط); القنوط only in a block that also has депрессия (SKILL.md, two Russian words one Arabic term; user rule 2026-11-22) |
 | `депресс` | depression | **الاكتئاب** | attested |  |  |
 | `отчаян\|отчая` | despair | **اليأس** | locked |  |  |
 | `страх(?!ов)\|страш\|бояз` | fear | **الخوف** | attested |  |  |

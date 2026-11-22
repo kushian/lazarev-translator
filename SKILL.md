@@ -28,7 +28,8 @@ scripts, and you are honest about what was checked.
    source block, same order. The scripts depend on them.
 4. **No translator credit.** No name, no translator's preface; never copy Sablabal's preface, the
    author's thanks to him, or the 2019 legal statement. Inline notes keep Sablabal's formula
-   «(… . من المترجم)» and are used sparingly (`references/style.md` §6). Doubts go in a separate
+   «(… . من المترجم)» and are used sparingly (`references/style.md` §6); the one exception is the
+   bracket that explains a quoted proverb, which has no «من المترجم» (`style.md` §4). Doubts go in a separate
    `uncertain.md` (copied beside the deliverable), never inside the translation, and no file the
    user reads names any translator — not even Sablabal.
 5. **Personal use.** Translations are for the user's own reading. Never sign in to any account or
@@ -107,7 +108,8 @@ or corrupted. Shell commands are for running scripts only.
    slice for the text: `glossary.py --scan <source> [--overlay <project>/book-glossary.tsv] [--lang en]`.
    The full glossary is `references/glossary.tsv` (single source of truth); readable views by topic
    are in `references/topics/*.md` (generated — edit the TSV, never the views). Titles: `references/works.md`.
-4. **After translating:** `align_check.py` and `term_check.py`, the spot checks in `references/quality.md`,
+4. **After translating:** the Arabic read-through of every chunk (`references/quality.md`, Manual
+   step 0 — mandatory, never skipped), `align_check.py` and `term_check.py`, the spot checks in `references/quality.md`,
    then `assemble_book.py` and the required HTML/PDF export in `references/reading-output.md`. Report in Arabic: file path, what was checked, open doubts.
 
 ## The terms that must never slip (full list in glossary.tsv)
@@ -129,6 +131,14 @@ or corrupted. Shell commands are for running scripts only.
 | благополучие | **اليُسر** | | мировоззрение | **الرؤية الوجودية** |
 | характер | **الطبع** | | окружающий мир | **العالم المحيط** |
 | семья | **العائلة** | | бизнес | **الأعمال** (not البزنس) |
+
+**Two Russian words, one Arabic term.** Sablabal renders уныние and депрессия both as
+**الاكتئاب**. Keep that everywhere, except in a sentence that has both words, where the same
+Arabic word would make nonsense («يتحوّل الاكتئاب إلى اكتئاب»): there уныние becomes **القنوط**,
+explained in brackets the first time in the text: «القنوط (فتور النفس وانطفاء الفرح)»
+(user rule, 2026-11-22): «كثيراً ما يتحوّل القنوط إلى اكتئاب، والعكس: يتحوّل الاكتئاب إلى قنوط».
+Apply the same idea to any other pair the glossary merges: keep Sablabal's term, and give the
+second word a distinct rendering only in the sentence where both appear.
 
 Do not import Islamic notions the source does not contain (الجن، المسّ، الرقية الشرعية); Christian
 terms stay Christian. Author's name: «سيرغيي نيكولايفيتش لازاريف».

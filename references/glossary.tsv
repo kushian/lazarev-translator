@@ -8,7 +8,7 @@ prezrenie	core	презр|презир	contempt	الاحتقار	احتقار|ي
 revnost	core,family	ревн	jealousy	الغيرة	غيرة|غيرته|غيرتها|يغار|تغار|اغار|نغار			warn	attested	71 occ.	not religious zeal
 nenavist	core	ненавид|ненавист	hatred	الحقد / الكره	حقد|حاقد|كره|يكره|تكره|كراهي			warn	attested		
 zavist	core	завид|завист	envy	الحسد	حسد|حسود|يحسد			warn	attested		завистливый = الحسود
-unynie	core	уныни|уныл	despondency	الاكتئاب	اكتئاب|مكتئب|يكتئب|تكتئب	قنوط		warn	locked	Sablabal: «الزعل، الإدانة، الاكتئاب»	user rule: Sablabal over user (user had suggested القنوط)
+unynie	core	уныни|уныл	despondency	الاكتئاب	اكتئاب|مكتئب|يكتئب|تكتئب	قنوط	депресс	warn	locked	Sablabal: «الزعل، الإدانة، الاكتئاب»	user rule: Sablabal over user (user had suggested القنوط); القنوط only in a block that also has депрессия (SKILL.md, two Russian words one Arabic term; user rule 2026-11-22)
 depressiya	core,disease	депресс	depression	الاكتئاب	اكتئاب|مكتئب			warn	attested		
 otchayanie	core	отчаян|отчая	despair	اليأس	ياس|يائس			warn	locked	pride: «اليأس هو الشعور النقيض للحب»	
 strah	core	страх(?!ов)|страш|бояз	fear	الخوف	خوف|خاف|يخاف|تخاف|مخاوف|مخيف			warn	attested		
