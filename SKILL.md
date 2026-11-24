@@ -108,8 +108,10 @@ or corrupted. Shell commands are for running scripts only.
    slice for the text: `glossary.py --scan <source> [--overlay <project>/book-glossary.tsv] [--lang en]`.
    The full glossary is `references/glossary.tsv` (single source of truth); readable views by topic
    are in `references/topics/*.md` (generated — edit the TSV, never the views). Titles: `references/works.md`.
+   Also read `references/known-errors.md`: real errors from reviewed translations, so they are not repeated.
 4. **After translating:** the Arabic read-through of every chunk (`references/quality.md`, Manual
-   step 0 — mandatory, never skipped), `align_check.py` and `term_check.py`, the spot checks in `references/quality.md`,
+   step 0 — mandatory, never skipped), then the back-translation of every rewritten sentence
+   (Manual step 1: negation, who does what, condition and direction, number of ideas), `align_check.py` and `term_check.py`, the spot checks in `references/quality.md`,
    then `assemble_book.py` and the required HTML/PDF export in `references/reading-output.md`. Report in Arabic: file path, what was checked, open doubts.
 
 ## The terms that must never slip (full list in glossary.tsv)

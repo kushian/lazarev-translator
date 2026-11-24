@@ -33,7 +33,10 @@ term. These steps are the safety net; do them every time.
    rewritten sentence once against the source for meaning. A sentence that already reads clearly
    is left as it is (style.md §3). This pass is never skipped to save time or tokens.
    **Smoothing has limits (user review, 2026-11-24)** — the read-through fixes the Arabic, never the
-   content. Found in a re-translated lecture:
+   content. **Three things never change while smoothing: who does what (the subject and the object),
+   the negation, and the number of ideas.** If a sentence cannot be made smoother without changing one
+   of them, it stays as it was. Every error in `known-errors.md` broke one of these three. Found in a
+   re-translated lecture:
    - **It drops no spoken words.** Repetitions, «опять же» (مرة أخرى), «так сказать» (إن صحّ القول),
      «вот», a restarted «сказать, что…» and a short «что она» stay in the Arabic, rendered as speech
      (SKILL.md rule 2; lecture workflow §4). Making a sentence shorter than the source is a loss.
@@ -47,10 +50,19 @@ term. These steps are the safety net; do them every time.
      «однозначного понятия, что ложь — это плохо, так же как [что] деньги — плохо, быть не может» →
      «لا يمكن الحكم قطعاً بأنَّ الكذب سيئ، كما لا يمكن الحكم بأنَّ المال سيئ» — not «كما لا يمكن أن
      يكون المال سيئاً», which moves the negation from the judgement to the money.
-1. **Back-translation spot check.** Take 2 random blocks plus every block flagged by the length
-   check. Without looking at the source, render your Arabic back into Russian in your head, then
-   compare with the source: negation, modality, who-does-what, numbers, causality, any dropped
-   clause. Fix and move on.
+1. **Back-translation of every rewritten sentence (user rule, 2026-11-24).** Each sentence whose
+   wording you changed in step 0, each sentence with `{{…}}`, every block flagged by the length check,
+   and 2 random blocks: render the Arabic back into Russian **from the Arabic alone**, without looking
+   at the source, then compare with the source on four points:
+   - **Negation:** a «не / нет / ни» in one and not in the other («подражая ему» → «لم يقتدوا به» is wrong).
+   - **Who does what:** the same subject asks, sees, gives, imitates. Ask «who does it?» for every verb
+     («вы спрашиваете: "Кошелёк или жизнь?"» — *you* ask, not the man in the street).
+   - **Condition and direction:** «если», «чтобы», «из / в», «начинает / перестаёт», «свои» (one's own)
+     versus «его» keep their sense («входить в состояние» is not «выходить из него»).
+   - **Number of ideas:** as many clauses and claims as the source, none added, none merged.
+   Any difference is fixed before the block is saved or sent, then that block is read once more.
+   Repetitions and stutters are compared too: «я, я, я думаю» is copied three times, not once
+   and not four times (lecture workflow §4).
 2. **Read the warnings, not just the count.** For each `missing` term warning, look at the source
    block: either the term is there in another legitimate form, or fix it.
 3. **Doubts go to `uncertain.md`** in the project/post folder — never into the translation itself:
@@ -59,6 +71,32 @@ term. These steps are the safety net; do them every time.
    copies it next to the internal assembled Markdown as «<name> – مواضع الشك.md». Export a separate styled HTML notes file as specified in `reading-output.md`, so the translation stays clean.
    Write doubts in Arabic, for the user, and **never name any translator** (no «سبلبل»), neither in
    the doubts file nor in the translation: say «لا يوجد مقابل ثابت في المسرد» instead.
+
+## Re-translating a text that was already translated
+When an earlier translation of the same text is given (a re-run, or the user's corrected copy), it is
+the starting point: **a sentence that was correct stays word for word**, and a sentence changes only
+for a specific error you can name (a wrong term, a dropped clause, broken Arabic). «Smoother» is not
+an error. Two reviewed regressions came from rewriting correct sentences: «قلّدوه» became
+«لم يقتدوا به», and the asker in «المحفظة أم الحياة؟» was reversed (`known-errors.md`).
+
+## Known errors: examples and the test after every skill change
+`references/known-errors.md` lists errors found in reviewed translations: the Russian, the wrong
+Arabic, the right Arabic, and the kind of error. Read it before a lecture or article. After any
+change to this skill, translate the Russian of each entry again and check that none of the listed
+errors comes back. Each new error found in a review is added there.
+
+## Fixed renderings: never improvise these
+- **Bible quotations** Lazarev quotes as verses: the common Arabic (Van Dyck) wording, as it is
+  known: «плодитесь и размножайтесь» → «أثمروا واكثروا»; «Не нарушить пришёл Я, но исполнить» →
+  «ما جئتُ لأنقض بل لأكمّل». Only when you are unsure which verse it is, follow style.md §8.
+- **Church terms** from the glossary (religion topic), never a synonym that sounds better:
+  «священник» is «الخوري» (plural «الخوارنة»), as Sablabal renders it, not «الكاهن» (user decision,
+  2026-11-24).
+- **Words the author contrasts on purpose** keep two different Arabic words in the whole text, even
+  where the glossary has one: «корыстность» (natural self-interest, which he defends) and «корысть»
+  (greed, «приоритет тела над душой») in «Ключ к помощи»: «المصلحة الذاتية» and «الطمع», never one
+  word for both («تظهر المصلحة الذاتية فيما نسميه مصلحة ذاتية» is nonsense). Same idea as SKILL.md,
+  «Two Russian words, one Arabic term».
 
 ## Deciding a term Sablabal never translated
 1. `glossary.py --term <word>`; look for a related term in the glossary (same root, same field).

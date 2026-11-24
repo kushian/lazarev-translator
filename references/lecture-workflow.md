@@ -114,6 +114,13 @@ natural spoken Arabic: «يعني»، «إذن»، «هكذا»، «حسناً»
 abandoned sentence ends with «…» and the restart begins a new sentence; a correction mid-sentence
 takes « – » («كان ذلك في القرن الخامس – لا، قبل ذلك»). A sentence the speaker does finish keeps
 its main clause in the Arabic, even when the captions scatter it.
+**Stutters and repetitions keep their count** (user rule, 2026-11-24): «я, я, я думаю» → «أنا، أنا،
+أنا أظن»; «вот, вот» → «ها هو، ها هو». Not merged into one, and not repeated more than the source.
+**Translator notes stay out of the lecture text** (user rule, 2026-11-24): the line is shown on the
+video, so explaining, commenting or «من المترجم» notes go to the doubts file. A Russian term the
+viewer would not understand is rendered by its meaning instead («воры в законе» →
+«كبار زعماء العالم الإجرامي»), and the literal name, if useful, is given in the doubts file. The
+one bracket kept in the text is the explanation of a quoted proverb (style.md §4).
 Before each pass, read ~5 segments beyond its end so a sentence crossing the pass boundary is
 understood whole, and run the Arabic read-through (`quality.md`, Manual step 0) on every pass
 before saving or sending it.
@@ -131,8 +138,14 @@ reading text leaves it out.
 `[неразборчиво: x]` in the source segment, write in the Arabic the most likely meaning, inferred
 from the sentence, the surrounding argument and Lazarev's usual wording, inside `{{…}}`:
 `أحد معارفي قال إنَّ {{كثيراً من رجال العصابات الذين عرفهم}} اليوم تحت التراب`.
+- `{{…}}` holds **only the words you guessed.** Every spoken word that is understood stays outside
+  it, even in a garbled sentence (user review, 2026-11-24: understood words were coloured as guesses
+  in all four reviewed videos, so the reader took them for inventions):
+  «{{أعتقد أن هذا}} الإنسان يبدأ {{بالانهيار}}» is wrong when only «бу…ся» was garbled →
+  «أعتقد أن هذا الإنسان يبدأ {{بالانهيار}}».
 - Complete only what the context really supports; keep it short, in the speaker's voice, no new
-  claims. If nothing can be inferred, write `{{…}}` (a coloured ellipsis), never the Cyrillic.
+  claims. A guess with no support in the context is not written: write `{{…}}` (a coloured
+  ellipsis), never the Cyrillic and never an invented phrase.
 - Also use `{{…}}` when a clear ASR fix is not certain enough for `asr-fixes.md`.
 - Never write Russian letters or «[غير واضح]» in the Arabic: readers and viewers do not see the
   source, and mixed scripts break the line order.

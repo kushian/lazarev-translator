@@ -158,6 +158,7 @@ C:/Users/Yasseen/.agents/skills/lazarev-translator
 - [سير عمل المقالات](references/article-workflow.md).
 - [دليل الأسلوب](references/style.md).
 - [قواعد الجودة](references/quality.md).
+- [الأخطاء المكتشفة في المراجعات](references/known-errors.md): أمثلة تُقرأ قبل الترجمة، واختبار بعد كل تعديل للمهارة.
 - [المسرد الأساسي](references/glossary.tsv).
 
 المراجع التقنية الأخيرة مكتوبة بالإنجليزية حالياً؛ يشرح هذا الدليل قواعد الاستخدام بالعربية، ويبيّن دليل الإخراج العربي خطوات التنسيق المعتمد.
