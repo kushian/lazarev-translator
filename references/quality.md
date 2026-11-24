@@ -32,6 +32,21 @@ term. These steps are the safety net; do them every time.
    Rewrite in Arabic inside the same block, keeping every piece of content, then check the
    rewritten sentence once against the source for meaning. A sentence that already reads clearly
    is left as it is (style.md §3). This pass is never skipped to save time or tokens.
+   **Smoothing has limits (user review, 2026-11-24)** — the read-through fixes the Arabic, never the
+   content. Found in a re-translated lecture:
+   - **It drops no spoken words.** Repetitions, «опять же» (مرة أخرى), «так сказать» (إن صحّ القول),
+     «вот», a restarted «сказать, что…» and a short «что она» stay in the Arabic, rendered as speech
+     (SKILL.md rule 2; lecture workflow §4). Making a sentence shorter than the source is a loss.
+   - **It completes nothing without `{{…}}`.** A sentence the speaker leaves unfinished stays
+     unfinished («…»), or its completion is coloured: «إذا أردنا أن نحدد شيئاً، {{أن نكون حذرين}}» —
+     never plain «أن نكون حذرين», which the reader takes as the author's words.
+   - **It keeps the established word.** «унижение» stays «الإذلال», as in Sablabal's «إذلال الذات»
+     for самоуничижение (not «التحقير»); a smoother synonym is not a reason to change a term.
+   - **Check every rewritten sentence against the source, clause by clause:** each Russian clause has
+     its Arabic, nothing is added, and negation and «как / так же как» apply to the same words.
+     «однозначного понятия, что ложь — это плохо, так же как [что] деньги — плохо, быть не может» →
+     «لا يمكن الحكم قطعاً بأنَّ الكذب سيئ، كما لا يمكن الحكم بأنَّ المال سيئ» — not «كما لا يمكن أن
+     يكون المال سيئاً», which moves the negation from the judgement to the money.
 1. **Back-translation spot check.** Take 2 random blocks plus every block flagged by the length
    check. Without looking at the source, render your Arabic back into Russian in your head, then
    compare with the source: negation, modality, who-does-what, numbers, causality, any dropped
